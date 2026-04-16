@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7283373525691308429
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BMX_Stem Cap_Me The Person_Phat Stax_Orange
+  m_Shader: {fileID: -6465566751694194690, guid: ef2f63690a486964faa40c2e3d756d1c,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: 865d1190653fce2448a54310958ab807, type: 2}
+  m_ModifiedSerializedProperties: 16
+  m_ValidKeywords:
+  - _DISABLE_DECALS
+  - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords:
+  - ENUM_3AD5071851E0434C934F90FF1FB97B14_ATLAS
+  - ENUM_4F590E3DCCC04CF392CB2A3213276414_PEGSGUARDS
+  - _DETAIL_UV_SET_UV0
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentBackface
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - RayTracingPrepass
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DecalBaseMap:
+        m_Texture: {fileID: 2800000, guid: 596bc9291d21392439e4a765d40d0f1a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 2800000, guid: 32fd326733980104f95733da824d7359, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 004581d76a9f53744be4f1f4ce71fc4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 1703d711397fecd4e98e52475254d1de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StickerMap:
+        m_Texture: {fileID: 2800000, guid: 07a785d5015d56d4684369fe594fcada, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Decal_Blend: 1
+    - _Decal_Coat: 0.375
+    - _Decal_Normal_Blend: 0.92
+    - _DetailNormalScale: 1
+    - _DetailSmoothnessScale: 0
+    - _MM_AO_Mult: 0.04
+    - _MM_Metal_Mult: 1
+    - _MM_SmoothnessMult: 1
+    - _Metallic: 0
+    - _NormalScale: 1
+    - _Normal_Edging: 0.391
+    - _Smoothness: -0.2
+    - _SupportDecals: 0
+    - _ao: 0.62
+    m_Colors:
+    - _DecalBaseColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+    - _NormalMapTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _StickerColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
+  m_BuildTextureStacks: []

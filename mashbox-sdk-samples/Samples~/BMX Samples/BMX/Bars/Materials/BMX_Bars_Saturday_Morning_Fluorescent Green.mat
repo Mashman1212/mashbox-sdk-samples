@@ -1,0 +1,308 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7283373525691308429
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BMX_Bars_Saturday_Morning_Fluorescent Green
+  m_Shader: {fileID: -6465566751694194690, guid: ef2f63690a486964faa40c2e3d756d1c,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _DISABLE_DECALS
+  - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords:
+  - ENUM_3AD5071851E0434C934F90FF1FB97B14_ATLAS
+  - ENUM_4F590E3DCCC04CF392CB2A3213276414_PEGSGUARDS
+  - _DETAIL_UV_SET_UV1
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentBackface
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - RayTracingPrepass
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3D103DC5:
+        m_Texture: {fileID: 2800000, guid: 737e61d0f32b7df4493be8440bdf0377, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4E6ACE48:
+        m_Texture: {fileID: 2800000, guid: 8939b34f28a740b4ba6ed09480c90dd1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_7FF064F6:
+        m_Texture: {fileID: 2800000, guid: 19fc37951ef22714fb26eb51e4afb591, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8B9084:
+        m_Texture: {fileID: 2800000, guid: 15501839a5fe3ec41883644d27d70047, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A0E6A5A2:
+        m_Texture: {fileID: 2800000, guid: d5e6039e17ca4904882643aa8da40487, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_AEE83F24:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_E050E094:
+        m_Texture: {fileID: 2800000, guid: e4beea728d1ce584581927f0174cf023, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_EAA04F44:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: 21be9d29042caa9499db45311d5d1a5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CoatMaskMap:
+        m_Texture: {fileID: 2800000, guid: 21be9d29042caa9499db45311d5d1a5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalBaseMap:
+        m_Texture: {fileID: 2800000, guid: 15501839a5fe3ec41883644d27d70047, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailColorMap:
+        m_Texture: {fileID: 2800000, guid: 21be9d29042caa9499db45311d5d1a5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 2800000, guid: 1c54a4ec1fe15d34e98cefcf2873a57d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: 19fc37951ef22714fb26eb51e4afb591, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveColorMap:
+        m_Texture: {fileID: 2800000, guid: 21be9d29042caa9499db45311d5d1a5d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 94edd900387c4ed4bafa7aa516efe915, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 737e61d0f32b7df4493be8440bdf0377, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StickerMap:
+        m_Texture: {fileID: 2800000, guid: 0822d01efde3b1242a7e211f8770bb73, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Boolean_599DC4D7: 1
+    - Boolean_59FA0C0D: 1
+    - Boolean_79F15227: 1
+    - Boolean_9053ccdb856c4241b45b390b1a4318e0: 1
+    - Boolean_A011B31C: 0
+    - Boolean_f01b3f5fedec4da09f2ed95b382f7868: 0
+    - ENUM_3AD5071851E0434C934F90FF1FB97B14: 0
+    - ENUM_4F590E3DCCC04CF392CB2A3213276414: 0
+    - ENUM_53C81C122BCF493E9FA8CDB61813E767: 1
+    - Vector1_2025C799: 1
+    - Vector1_35D412AD: 0.753
+    - Vector1_4F93D65B: 2
+    - Vector1_685D6EED: 10
+    - Vector1_6E10085: 0.3
+    - Vector1_A4938C8A: 0
+    - Vector1_BB07FDDC: 0.05
+    - _AORemapMax: 1
+    - _AORemapMin: 0
+    - _AddPrecomputedVelocity: 0
+    - _AlphaClipThreshold: 0.5
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaMaskBlend: 0
+    - _AlphaMaskInvert: 0
+    - _AlphaMaskMetalMult: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BaseMapBoost: 0
+    - _Base_Coat: 0
+    - _BlendMode: 0
+    - _CoatCMMInvert: 0
+    - _CoatMaskStrength: 0
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _Cut_Sticker_Oil_Slick: 1
+    - _DETAIL_UV_SET: 1
+    - _DecalMetalic: 0
+    - _Decal_Blend: 1
+    - _Decal_Blend_Metallic: 1
+    - _Decal_Blend_Smoothness: 1
+    - _Decal_Coat: 0.375
+    - _Decal_Normal_Blend: 0.92
+    - _Decal_Smoothness: 0
+    - _DepthOffsetEnable: 0
+    - _DetailColorBlend: 0
+    - _DetailColorBlendMode: 0
+    - _DetailColorUseUV1: 1
+    - _DetailColorUseUV2: 0
+    - _DetailColorUseUV3: 0
+    - _DetailNormalScale: 1
+    - _DetailUseUV1: 1
+    - _DetailUseUV2: 0
+    - _DetailUseUV3: 0
+    - _Detail_Color_Blend: 0
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EmissiveExposureWeight: 0
+    - _EmissiveIntensity: 0
+    - _EmissiveUseUV2: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
+    - _Exposure_Weight: 0.5
+    - _FilmThickness: -1
+    - _Fresnel_Power: 0
+    - _Invert_Alpha_Mask_Channel: 0
+    - _MM_AO_Mult: 0
+    - _MM_Metal_Mult: 0
+    - _MM_SmoothnessMult: 0
+    - _MaskMaskBMAlpha: 0
+    - _MaskMaskDMAlpha: 0
+    - _Metallic: 0
+    - _MetallicRemapMax: 0.90213895
+    - _MetallicRemapMin: 0
+    - _NormalScale: 1
+    - _NormalStrength: 1
+    - _Normal_Edging: 0.391
+    - _OilSlickAlphaMaskMulti: 0
+    - _OilSlickStrength: 0
+    - _Oilslick_Power: 0
+    - _OpaqueCullMode: 2
+    - _RBGMaskLerp: 0
+    - _RGBMaskSmoothMult: 0
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _Smoothness: -0.2
+    - _SmoothnessRemapMax: 0.8685867
+    - _SmoothnessRemapMin: 0
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 9
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 15
+    - _StencilWriteMaskMV: 41
+    - _StickerBlend: 1
+    - _StickerMetallic: 0
+    - _StickerRGBBlend: 1
+    - _StickerSmoothness: 0
+    - _StickerUseUV1: 0
+    - _StickerUseUV2: 1
+    - _StickerUseUV3: 0
+    - _StickerWhiteBoost: 0
+    - _SupportDecals: 0
+    - _SurfaceType: 0
+    - _Thickness: 0
+    - _Trans_Effect_Lerp: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 0
+    - _Varnish_Opacity: 0
+    - _Varnish_Thickness: 0
+    - _WhiteBoost: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    - _ao: 0.33
+    m_Colors:
+    - Color_54DE1720: {r: 0, g: 0.2816487, b: 0.32602972, a: 1}
+    - Color_B1D47BC7: {r: 0, g: 2169.3926, b: 0, a: 0}
+    - Vector4_87ADB43A: {r: 1, g: 1, b: 0, a: 0}
+    - Vector4_B37166B7: {r: 6, g: 6, b: 0, a: 0}
+    - Vector4_a530ddc643eb417eb4225158e90afa69: {r: 2, g: 2, b: 0, a: 0}
+    - _BaseColor: {r: 0.27803487, g: 0.8301887, b: 0.6614765, a: 1}
+    - _BaseMapTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _CCMColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalBaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _DecalTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailNormalMapTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Emissive_Color: {r: 0.101960786, g: 0.7490196, b: 0, a: 1}
+    - _NormalMapTiling: {r: 0, g: 0, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _RBGColorMaskMult: {r: 1, g: 1, b: 1, a: 1}
+    - _StickerColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StickerOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _StickersColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

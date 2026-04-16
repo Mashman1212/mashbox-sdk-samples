@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6355682256531971072
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BMX_Base_Destruction_Camo_Mat
+  m_Shader: {fileID: -6465566751694194690, guid: 562c7d7f6b12db646bfff189116f5ac1,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: c8bccc1b97f0f974ea777d097a1e9378, type: 2}
+  m_ModifiedSerializedProperties: 16
+  m_ValidKeywords:
+  - _DISABLE_DECALS
+  - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords:
+  - ENUM_3AD5071851E0434C934F90FF1FB97B14_ATLAS
+  - ENUM_4F590E3DCCC04CF392CB2A3213276414_PEGSGUARDS
+  - _DETAIL_UV_SET_UV1
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  - MOTIONVECTORS
+  m_LockedProperties: _DetailNormalScale _MM_AO_Mult _MM_Metal_Mult _MM_SmoothnessMult
+    _Metallic _RGBMaskSmoothMult _Smoothness _ao
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColorMap:
+        m_Texture: {fileID: 2800000, guid: 76cf1be96cdadf6469bc7d04d675005c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalBaseMap:
+        m_Texture: {fileID: 2800000, guid: 6ea9c6f9311180b4387d3736043b4637, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailColorMap:
+        m_Texture: {fileID: 2800000, guid: 6ea9c6f9311180b4387d3736043b4637, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 2800000, guid: cc59317726e211f438758b1df74c4d89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 2800000, guid: cc59317726e211f438758b1df74c4d89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: 1021e1b4fd3b85544bbfd9a50c958757, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 737e61d0f32b7df4493be8440bdf0377, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StickerMap:
+        m_Texture: {fileID: 2800000, guid: 6ea9c6f9311180b4387d3736043b4637, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Decal_Blend: 1
+    - _DetailNormalScale: 1.2
+    - _MM_AO_Mult: 0
+    - _MM_Metal_Mult: 0
+    - _MM_SmoothnessMult: 0
+    - _Metallic: 1
+    - _NormalScale: 1.39
+    - _RBGMaskLerp: 0.539
+    - _RGBMaskSmoothMult: 0
+    - _Smoothness: 0.16
+    - _ao: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalTiling: {r: 4, g: 4, b: 0, a: 0}
+    - _NormalMapTiling: {r: 5, g: 5, b: 0, a: 0}
+  m_BuildTextureStacks: []

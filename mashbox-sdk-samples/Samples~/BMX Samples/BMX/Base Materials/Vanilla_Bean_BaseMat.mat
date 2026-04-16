@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7283373525691308429
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 13
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vanilla_Bean_BaseMat
+  m_Shader: {fileID: -6465566751694194690, guid: ab102eb67c21f7f468524e63963e3bb8,
+    type: 3}
+  m_Parent: {fileID: 2100000, guid: fae826ce9efaef44daacf02ab94d37ff, type: 2}
+  m_ModifiedSerializedProperties: 16
+  m_ValidKeywords:
+  - _DISABLE_DECALS
+  - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords:
+  - ENUM_3AD5071851E0434C934F90FF1FB97B14_ATLAS
+  - ENUM_4F590E3DCCC04CF392CB2A3213276414_PEGSGUARDS
+  - _DETAIL_UV_SET_UV0
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - TransparentBackface
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - RayTracingPrepass
+  m_LockedProperties: _MM_AO_Mult _MM_Metal_Mult _MM_SmoothnessMult _MaskMaskBMAlpha
+    _MaskMaskDMAlpha _Metallic _MetallicRemap _RGBMaskSmoothMult _Smoothness _SmoothnessRemap
+    _ao
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DecalBaseMap:
+        m_Texture: {fileID: 2800000, guid: f885ad8137488094aa9fa8217528a98b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClipThreshold: 0.5
+    - _CoatMaskStrength: 0.2
+    - _FilmThickness: -1
+    - _InvertPrimaryAccentMask: 0
+    - _Metallic: 0.647
+    - _MetallicRemapMax: 0.5
+    - _PrimaryAccentColorMaskStrength: 0
+    - _SecondaryAccentColorMaskStrength: 0
+    - _Smoothness: 0.662
+    - _SmoothnessRemapMax: 0.5
+    m_Colors:
+    - _BaseColor: {r: 0.12156863, g: 0.13333334, b: 0.09411765, a: 1}
+    - _MetallicRemap: {r: 0.46, g: 1, b: 0, a: 0}
+    - _PrimaryAccentColor: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
+    - _SmoothnessRemap: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []
