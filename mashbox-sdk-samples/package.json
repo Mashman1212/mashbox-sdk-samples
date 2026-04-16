@@ -1,0 +1,51 @@
+{
+  "name": "com.mg.mashbox.samples",
+  "displayName": "MashBox Samples",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Sample content and tools for MashBox SDK",
+  "author": {
+    "name": "MG"
+  },
+  "unityRelease": "62f1",
+  "dependencies": {
+    "com.mg.mashbox.sdk": "https://github.com/Mashman1212/mashbox-sdk.git?path=com.mg.mashbox.sdk#main"
+  },
+  "samples": [
+    {
+      "displayName": "Requirements - Icon Capture System",
+      "description": "This is needed for content system to work",
+      "path": "Samples~/Icon Capture System"
+    },
+    {
+      "displayName": "Tools - Look Dev",
+      "description": "Scene with lighting to work item shading in",
+      "path": "Samples~/Look Dev"
+    },
+    {
+      "displayName": "Tools - Photo Booth",
+      "description": "System to manually capture images of content",
+      "path": "Samples~/Photo Booth"
+    },
+    {
+      "displayName": "Tools - Tire Creator",
+      "description": "Substance template to generate tire tread texture maps",
+      "path": "Samples~/Tire Creation"
+    },
+    {
+      "displayName": "Samples - BMX Samples",
+      "description": "",
+      "path": "Samples~/BMX Samples"
+    },
+    {
+      "displayName": "Samples - Scooter Samples",
+      "description": "",
+      "path": "Samples~/Scooter Samples"
+    },
+    {
+      "displayName": "Samples - Human Samples",
+      "description": "",
+      "path": "Samples~/Human Samples"
+    }
+  ]
+}
