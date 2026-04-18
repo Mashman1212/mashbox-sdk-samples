@@ -184,7 +184,7 @@ Material:
     m_Floats:
     - _AOBaseMapBlendContrast: 1
     - _AOBaseMapBlendMultiplier: 1
-    - _AORemapMax: 1
+    - _AORemapMax: 0.034852445
     - _AORemapMin: 0
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
@@ -246,7 +246,7 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _Metallic: 0
-    - _MetallicRemapMax: 1
+    - _MetallicRemapMax: 0
     - _MetallicRemapMin: 0
     - _MudBuildColorMultRate: 7
     - _MudBuildup: 0
@@ -261,7 +261,7 @@ Material:
     - _MudSmoothness: 0.083
     - _NormalMapSpace: 0
     - _NormalScale: 1
-    - _NormalStrength: 1
+    - _NormalStrength: 0.159
     - _ObjectSpaceUVMapping: 0
     - _ObjectSpaceUVMappingEmissive: 0
     - _OpaqueCullMode: 2
@@ -280,7 +280,7 @@ Material:
     - _SidewallMetallic: 0
     - _SidewallSmoothness: 0
     - _Smoothness: 0.5
-    - _SmoothnessRemapMax: 1
+    - _SmoothnessRemapMax: 0.020742
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
@@ -347,9 +347,9 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.12401908, g: 0.12401908, b: 0.12401908, a: 0}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.124019034, g: 0.124019034, b: 0.124019034, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
@@ -357,7 +357,7 @@ Material:
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _MudColor: {r: 0.4716981, g: 0.33158815, b: 0.11637082, a: 0}
+    - _MudColor: {r: 0.4716981, g: 0.33158067, b: 0.11636337, a: 0}
     - _PatternOverlayColor: {r: 1, g: 1, b: 1, a: 0}
     - _SidewallColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
@@ -365,7 +365,7 @@ Material:
     - _StickerOffset: {r: 0, g: 0, b: 0, a: 0}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TreadWearColor: {r: 0.41884643, g: 0.3841534, b: 0.33428252, a: 0}
+    - _TreadWearColor: {r: 0.41883898, g: 0.38414595, b: 0.33427507, a: 0}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
