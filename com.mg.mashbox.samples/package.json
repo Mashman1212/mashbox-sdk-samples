@@ -13,6 +13,11 @@
   },
   "samples": [
     {
+      "displayName": "Vanilla Graphics",
+      "description": "Reusable 2D images for the MashBox Studio Image Library, including the Vehicles_BMX_Brands graphics collection.",
+      "path": "Samples~/Vanilla Graphics"
+    },
+    {
       "displayName": "Requirements - Icon Capture System",
       "description": "This is needed for content system to work",
       "path": "Samples~/Icon Capture System"
